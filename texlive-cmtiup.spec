@@ -1,3 +1,9 @@
+# revision 20512
+# category Package
+# catalog-ctan /fonts/cm/cmtiup
+# catalog-date 2010-11-20 14:00:52 +0100
+# catalog-license lppl1.3
+# catalog-version 1.3a
 Name:		texlive-cmtiup
 Version:	1.3a
 Release:	1
@@ -63,6 +69,7 @@ of vf files; a package for support in LaTeX 2e is provided.
 %doc %{_texmfdistdir}/doc/latex/cmtiup/cmtiup.ins
 %doc %{_texmfdistdir}/doc/latex/cmtiup/cmtiup.pdf
 %doc %{_texmfdistdir}/doc/latex/cmtiup/testfont.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -73,3 +80,5 @@ of vf files; a package for support in LaTeX 2e is provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

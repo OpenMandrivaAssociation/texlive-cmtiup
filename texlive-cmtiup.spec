@@ -70,3 +70,18 @@ of vf files; a package for support in LaTeX 2e is provided.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.3a-2
++ Revision: 750329
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.3a-1
++ Revision: 718087
+- texlive-cmtiup
+- texlive-cmtiup
+- texlive-cmtiup
+- texlive-cmtiup
+- texlive-cmtiup
+

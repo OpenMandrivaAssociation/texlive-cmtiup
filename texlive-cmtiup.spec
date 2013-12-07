@@ -6,7 +6,7 @@
 # catalog-version 1.3a
 Name:		texlive-cmtiup
 Version:	1.3a
-Release:	3
+Release:	4
 Summary:	Upright punctuation with CM slanted
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cm/cmtiup

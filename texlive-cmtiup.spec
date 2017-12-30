@@ -1,12 +1,6 @@
-# revision 20512
-# category Package
-# catalog-ctan /fonts/cm/cmtiup
-# catalog-date 2010-11-20 14:00:52 +0100
-# catalog-license lppl1.3
-# catalog-version 1.3a
 Name:		texlive-cmtiup
-Version:	1.3a
-Release:	10
+Version:	2.1
+Release:	1
 Summary:	Upright punctuation with CM slanted
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cm/cmtiup
@@ -36,30 +30,11 @@ of vf files; a package for support in LaTeX 2e is provided.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/source/public/cmtiup/cmtiup10.mf
-%{_texmfdistdir}/fonts/source/public/cmtiup/cmtiup12.mf
-%{_texmfdistdir}/fonts/source/public/cmtiup/cmtiup7.mf
-%{_texmfdistdir}/fonts/source/public/cmtiup/cmtiup8.mf
-%{_texmfdistdir}/fonts/source/public/cmtiup/cmtiup9.mf
-%{_texmfdistdir}/fonts/source/public/cmtiup/cmtiupgn.mf
-%{_texmfdistdir}/fonts/source/public/cmtiup/cmtiuplg.mf
-%{_texmfdistdir}/fonts/source/public/cmtiup/cmtiupp.mf
-%{_texmfdistdir}/fonts/tfm/public/cmtiup/cmtiup10.tfm
-%{_texmfdistdir}/fonts/tfm/public/cmtiup/cmtiup12.tfm
-%{_texmfdistdir}/fonts/tfm/public/cmtiup/cmtiup7.tfm
-%{_texmfdistdir}/fonts/tfm/public/cmtiup/cmtiup8.tfm
-%{_texmfdistdir}/fonts/tfm/public/cmtiup/cmtiup9.tfm
-%{_texmfdistdir}/fonts/vf/public/cmtiup/cmtiup10.vf
-%{_texmfdistdir}/fonts/vf/public/cmtiup/cmtiup12.vf
-%{_texmfdistdir}/fonts/vf/public/cmtiup/cmtiup7.vf
-%{_texmfdistdir}/fonts/vf/public/cmtiup/cmtiup8.vf
-%{_texmfdistdir}/fonts/vf/public/cmtiup/cmtiup9.vf
-%{_texmfdistdir}/tex/latex/cmtiup/cmtiup.sty
-%doc %{_texmfdistdir}/doc/latex/cmtiup/README
-%doc %{_texmfdistdir}/doc/latex/cmtiup/cmtiup.dtx
-%doc %{_texmfdistdir}/doc/latex/cmtiup/cmtiup.ins
-%doc %{_texmfdistdir}/doc/latex/cmtiup/cmtiup.pdf
-%doc %{_texmfdistdir}/doc/latex/cmtiup/testfont.pdf
+%{_texmfdistdir}/fonts/source/public/cmtiup
+%{_texmfdistdir}/fonts/tfm/public/cmtiup
+%{_texmfdistdir}/fonts/vf/public/cmtiup
+%{_texmfdistdir}/tex/latex/cmtiup
+%doc %{_texmfdistdir}/doc/latex/cmtiup
 
 #-----------------------------------------------------------------------
 %prep

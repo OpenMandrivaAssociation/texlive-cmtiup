@@ -1,6 +1,6 @@
 Name:		texlive-cmtiup
 Version:	2.1
-Release:	1
+Release:	2
 Summary:	Upright punctuation with CM slanted
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cm/cmtiup

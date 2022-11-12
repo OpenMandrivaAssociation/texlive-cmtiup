@@ -5,8 +5,8 @@ Summary:	Upright punctuation with CM slanted
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cm/cmtiup
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmtiup.r39728.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmtiup.doc.r39728.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmtiup.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmtiup.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
